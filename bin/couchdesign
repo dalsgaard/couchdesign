@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'couchdesign'
+
+case ARGV.first
+when "--help", "-f"
+  ARGV.shift
+  CouchDesign.force *ARGV
+  CouchDesign.update *ARGV
+when "--help", "-h"
+  puts "couchview [--help] [--force] [-h] [-f] <file> <database> [<host>=localhost] [<port>=5984]"
+else
+  CouchDesign.update *ARGV
+end
