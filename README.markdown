@@ -24,11 +24,11 @@ Usage
 
 To force a update in case of a conflict
 
-> couchdesign -f &lt;file&gt; &lt;database&gt; [&lt;host&gt;=localhost] [&lt;port&gt;=5984]
+> $ couchdesign -f &lt;file&gt; &lt;database&gt; \[&lt;host&gt;=localhost\] \[&lt;port&gt;=5984\]
 
 To get a help text
 
-> couchdesign -h
+> $ couchdesign -h
 
 CouchDesign stores a revision file containing the new revision
 number after an upload. The naming scheme for this file is as follows
