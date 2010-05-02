@@ -20,7 +20,7 @@ Installetion
 Usage
 -----
 
-> couchdesign &lt;file&gt; &lt;database&gt; [&lt;host&gt;=localhost] [&lt;port&gt;=5984]
+> $ couchdesign &lt;file&gt; &lt;database&gt; \[&lt;host&gt;=localhost\] \[&lt;port&gt;=5984\]
 
 To force a update in case of a conflict
 
